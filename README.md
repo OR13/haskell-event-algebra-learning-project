@@ -1,0 +1,3 @@
+# Stream log file over webstockets to haskell 
+# parse and publish log data
+# etc...
