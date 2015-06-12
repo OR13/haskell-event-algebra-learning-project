@@ -1,7 +1,7 @@
 Name:                estream
-Version:             1.2.1
-Synopsis:            Cotail a log-file and given a UUID filter out messages to the user on a websocket
-Description:         Cotail a log-file and given a UUID filter out messages to the user on a websocket
+Version:             1.0.0.0
+Synopsis:            Server for streaming events from Redis PubSub to a websocket.
+Description:         Server for streaming events from Redis PubSub to a websocket.
 License:             AllRightsReserved
 Author:              Parnell Springmeyer
 Maintainer:          parnell@digitalmentat.com
@@ -11,9 +11,9 @@ Build-type:          Simple
 Cabal-version:       >=1.2
 
 Data-Files:
-  etc/example.log
+  etc/stdout.log.1
   LICENSE
-  README.org
+  README.md
 
 Flag development
   Description: Whether to build the server in development (interpreted) mode
