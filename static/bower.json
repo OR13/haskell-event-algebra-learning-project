@@ -1,0 +1,31 @@
+{
+  "name": "estream",
+  "version": "1.0.0",
+  "homepage": "https://github.com/OR13/haskell-event-algebra-learning-project",
+  "authors": [
+    "Parnell Springmeyer <parnell@digitalmentat.com>"
+  ],
+  "description": "Real-time event streaming",
+  "main": "src/app.js",
+  "license": "All Rights Reserved",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone-amd": "~1.1.0",
+    "backbone": "<=1.1.0",
+    "fastclick": ">=0.6.11",
+    "foundation": "zurb/bower-foundation",
+    "jsx-requirejs-plugin": "~0.2.1",
+    "requirejs": "~2.1.14",
+    "react": "~0.10.0",
+    "underscore-amd": "~1.5.2",
+    "text": "~2.0.12",
+    "jquery": "~2.1.1"
+  }
+}
